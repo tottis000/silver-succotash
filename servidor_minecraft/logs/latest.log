@@ -286,3 +286,10 @@
 [22:59:55] [Server thread/INFO]: dotitwo has made the advancement [Getting an Upgrade]
 [23:24:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-572, y=68, z=136} class_2338{x=-572, y=67, z=135}
 [23:30:33] [Server thread/INFO]: dotitwo was blown up by Creeper
+[23:32:32] [Server thread/INFO]: avgus[/127.149.242.101:51297] logged in with entity id 10509 at (-560.5, 76.0, 24.5)
+[23:32:32] [Server thread/INFO]: Loading config from file...
+[23:32:32] [Server thread/INFO]: avgus joined the game
+[23:34:07] [Server thread/INFO]: [dotitwo: Set the time to 1000]
+[23:35:22] [Server thread/INFO]: avgus was shot by Skeleton
+[23:36:29] [Server thread/INFO]: [dotitwo: Teleported dotitwo to avgus]
+[23:39:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-519, y=94, z=-30} class_2338{x=-518, y=92, z=-29}
