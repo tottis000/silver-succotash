@@ -1,7 +1,38 @@
 {
+  "biomesoplenty:recipes/building_blocks/fir_slab": {
+    "criteria": {
+      "has_planks": "2025-09-22 23:44:50 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/fir_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-09-22 23:44:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "unlock_right_away": "2025-09-22 23:32:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2025-09-22 23:44:50 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "coniferous_forest": "2025-09-22 23:42:37 +0000",
+      "prairie": "2025-09-22 23:38:48 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2025-09-22 23:46:58 +0000"
     },
     "done": true
   },
@@ -17,9 +48,45 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/decorations/fir_fence": {
+    "criteria": {
+      "has_planks": "2025-09-22 23:44:50 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/fir_sign": {
+    "criteria": {
+      "has_planks": "2025-09-22 23:44:50 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/fir_button": {
+    "criteria": {
+      "has_planks": "2025-09-22 23:44:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-09-22 23:41:12 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/fir_door": {
+    "criteria": {
+      "has_planks": "2025-09-22 23:44:50 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:root": {
     "criteria": {
       "tick": "2025-09-22 23:32:32 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/fir_stairs": {
+    "criteria": {
+      "has_planks": "2025-09-22 23:44:50 +0000"
     },
     "done": true
   },
@@ -29,15 +96,57 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-09-22 23:41:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_porkchop": "2025-09-22 23:37:10 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2025-09-22 23:42:33 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "prairie": "2025-09-22 23:38:48 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/fir_wood": {
+    "criteria": {
+      "has_log": "2025-09-22 23:42:33 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/fir_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-09-22 23:44:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_by_something": "2025-09-22 23:35:22 +0000"
+    },
+    "done": true
+  },
+  "homesteads:recipes/wood_work_log_recipe": {
+    "criteria": {
+      "has_logs": "2025-09-22 23:42:33 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/fir_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-09-22 23:44:50 +0000"
     },
     "done": true
   },
@@ -53,9 +162,33 @@
     },
     "done": false
   },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2025-09-22 23:44:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-09-22 23:41:12 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/fir_planks": {
+    "criteria": {
+      "has_logs": "2025-09-22 23:42:33 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/pig": {
     "criteria": {
       "has_porkchop": "2025-09-22 23:37:10 +0000"
+    },
+    "done": true
+  },
+  "homesteads:recipes/forager_bench_recipe": {
+    "criteria": {
+      "has_planks": "2025-09-22 23:44:50 +0000"
     },
     "done": true
   },

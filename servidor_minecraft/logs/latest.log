@@ -293,3 +293,6 @@
 [23:35:22] [Server thread/INFO]: avgus was shot by Skeleton
 [23:36:29] [Server thread/INFO]: [dotitwo: Teleported dotitwo to avgus]
 [23:39:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-519, y=94, z=-30} class_2338{x=-518, y=92, z=-29}
+[23:42:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-476, y=88, z=-72} class_2338{x=-477, y=87, z=-72}
+[23:43:16] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=1340, y=81, z=648}
+[23:46:58] [Server thread/INFO]: avgus has made the advancement [Sweet Dreams]
