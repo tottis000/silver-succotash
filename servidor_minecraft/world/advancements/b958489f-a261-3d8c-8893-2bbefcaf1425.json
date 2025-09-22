@@ -155,6 +155,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/raw_iron_block": {
+    "criteria": {
+      "has_raw_iron": "2025-09-22 20:16:38 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/willow_boat": {
     "criteria": {
       "in_water": "2025-09-22 20:03:08 +0000"
@@ -281,6 +287,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2025-09-22 20:21:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "unlock_right_away": "2025-09-22 19:45:14 +0000"
@@ -332,6 +344,7 @@
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
       "dune_beach": "2025-09-22 20:05:04 +0000",
+      "redwood_forest": "2025-09-22 20:10:33 +0000",
       "prairie": "2025-09-22 19:53:19 +0000"
     },
     "done": false
@@ -679,6 +692,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-09-22 20:16:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
       "has_cobblestone": "2025-09-22 20:00:32 +0000"
@@ -886,6 +905,12 @@
   "homesteads:recipes/wood_work_log_recipe": {
     "criteria": {
       "has_logs": "2025-09-22 19:45:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-09-22 20:16:38 +0000"
     },
     "done": true
   },
