@@ -284,3 +284,5 @@
 [22:52:44] [Server thread/INFO]: dotitwo has made the advancement [Isn't It Iron Pick]
 [22:58:52] [Server thread/INFO]: dotitwo has made the advancement [Stone Age]
 [22:59:55] [Server thread/INFO]: dotitwo has made the advancement [Getting an Upgrade]
+[23:24:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-572, y=68, z=136} class_2338{x=-572, y=67, z=135}
+[23:30:33] [Server thread/INFO]: dotitwo was blown up by Creeper
