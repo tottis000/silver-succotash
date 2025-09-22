@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "c1a13edf-e57f-3fdb-b597-52469df688ea",
+    "name": "dotitwo",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

@@ -1,5 +1,5 @@
-[19:43:30] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.16.14
-[19:43:31] [main/INFO]: Loading 99 mods:
+[22:30:59] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.16.14
+[22:31:02] [main/INFO]: Loading 99 mods:
 	- appleskin 3.0.6+mc1.21.6
 	- architectury 17.0.8
 	- biomesoplenty 21.8.0.17
@@ -108,201 +108,175 @@
 	- t_and_t 1.13.5
 	- terrablender 6.0.0.3
 	- travelersbackpack 10.8.2
-[19:43:31] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/silver-succotash/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[19:43:31] [main/INFO]: Compatibility level set to JAVA_21
-[19:43:31] [main/WARN]: Reference map 'cristellib-common-common-refmap.json' for cristellib-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:43:31] [main/WARN]: Reference map 'formationsnether.mixins.refmap.json' for formationsnether.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:43:31] [main/WARN]: Reference map 'formationsoverworld.mixins.refmap.json' for formationsoverworld.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:43:31] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:43:31] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[19:43:31] [main/WARN]: Error loading class: net/minecraft/class_897 (java.lang.ClassNotFoundException: net/minecraft/class_897)
-[19:43:31] [main/WARN]: @Mixin target net.minecraft.class_897 was not found geckolib.mixins.json:client.EntityRendererMixin from mod geckolib
-[19:43:31] [main/WARN]: Error loading class: net/minecraft/class_938 (java.lang.ClassNotFoundException: net/minecraft/class_938)
-[19:43:31] [main/WARN]: @Mixin target net.minecraft.class_938 was not found journeymap.mixins.json:client.SalmonRendererInvoker from mod journeymap
-[19:43:32] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[19:43:32] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[19:43:40] [main/INFO]: EssentialF3 mod loaded successfully! F3 replacement is now active.
-[19:43:40] [main/INFO]: Reflections took 106 ms to scan 2 urls, producing 7 keys and 77 values
-[19:43:41] [main/INFO]: Registering block: tanning_rack
-[19:43:41] [main/INFO]: Block registry key: ResourceKey[minecraft:block / homesteads:tanning_rack]
-[19:43:41] [main/INFO]: Successfully registered block: tanning_rack
-[19:43:41] [main/INFO]: Registering block: honey_bottling_station
-[19:43:41] [main/INFO]: Block registry key: ResourceKey[minecraft:block / homesteads:honey_bottling_station]
-[19:43:42] [main/INFO]: Successfully registered block: honey_bottling_station
-[19:43:42] [main/INFO]: Registering block: wood_work_log
-[19:43:42] [main/INFO]: Block registry key: ResourceKey[minecraft:block / homesteads:wood_work_log]
-[19:43:42] [main/INFO]: Successfully registered block: wood_work_log
-[19:43:42] [main/INFO]: Registering block: prospectors_bench
-[19:43:42] [main/INFO]: Block registry key: ResourceKey[minecraft:block / homesteads:prospectors_bench]
-[19:43:42] [main/INFO]: Successfully registered block: prospectors_bench
-[19:43:42] [main/INFO]: Registering block: forager_bench
-[19:43:42] [main/INFO]: Block registry key: ResourceKey[minecraft:block / homesteads:forager_bench]
-[19:43:42] [main/INFO]: Successfully registered block: forager_bench
-[19:43:42] [main/INFO]: ModBlocks.initialize() called
-[19:43:42] [main/INFO]: ModBlocks registration complete
-[19:43:42] [main/INFO]: ModItems.initialize() called
-[19:43:42] [main/INFO]: TANNING_RACK item: homesteads:tanning_rack
-[19:43:42] [main/INFO]: === Starting POI and Profession Registration ===
-[19:43:42] [main/INFO]: Verifying blocks exist:
-[19:43:42] [main/INFO]: TANNING_RACK: Block{homesteads:tanning_rack}
-[19:43:42] [main/INFO]: BOTTELING_STATION: Block{homesteads:honey_bottling_station}
-[19:43:42] [main/INFO]: WOOD_WORK_LOG: Block{homesteads:wood_work_log}
-[19:43:42] [main/INFO]: PROSPECTORS_BENCH: Block{homesteads:prospectors_bench}
-[19:43:42] [main/INFO]: FORAGER_BENCH: Block{homesteads:forager_bench}
-[19:43:42] [main/INFO]: === Registering POI types ===
-[19:43:42] [main/INFO]: Registering POI: tanning_rack_poi with block: homesteads:tanning_rack
-[19:43:42] [main/INFO]: Successfully registered POI: tanning_rack_poi -> class_4158[matchingStates=[Block{homesteads:tanning_rack}[facing=south], Block{homesteads:tanning_rack}[facing=west], Block{homesteads:tanning_rack}[facing=north], Block{homesteads:tanning_rack}[facing=east]], maxTickets=1, validRange=1]
-[19:43:42] [main/INFO]: Registering POI: honey_bottling_station_poi with block: homesteads:honey_bottling_station
-[19:43:42] [main/INFO]: Successfully registered POI: honey_bottling_station_poi -> class_4158[matchingStates=[Block{homesteads:honey_bottling_station}[facing=south], Block{homesteads:honey_bottling_station}[facing=west], Block{homesteads:honey_bottling_station}[facing=north], Block{homesteads:honey_bottling_station}[facing=east]], maxTickets=1, validRange=1]
-[19:43:42] [main/INFO]: Registering POI: wood_work_log_poi with block: homesteads:wood_work_log
-[19:43:42] [main/INFO]: Successfully registered POI: wood_work_log_poi -> class_4158[matchingStates=[Block{homesteads:wood_work_log}[facing=west], Block{homesteads:wood_work_log}[facing=east], Block{homesteads:wood_work_log}[facing=south], Block{homesteads:wood_work_log}[facing=north]], maxTickets=1, validRange=1]
-[19:43:42] [main/INFO]: Registering POI: prospectors_bench_poi with block: homesteads:prospectors_bench
-[19:43:42] [main/INFO]: Successfully registered POI: prospectors_bench_poi -> class_4158[matchingStates=[Block{homesteads:prospectors_bench}[facing=east], Block{homesteads:prospectors_bench}[facing=north], Block{homesteads:prospectors_bench}[facing=south], Block{homesteads:prospectors_bench}[facing=west]], maxTickets=1, validRange=1]
-[19:43:42] [main/INFO]: Registering POI: forager_bench_poi with block: homesteads:forager_bench
-[19:43:42] [main/INFO]: Successfully registered POI: forager_bench_poi -> class_4158[matchingStates=[Block{homesteads:forager_bench}[facing=north], Block{homesteads:forager_bench}[facing=west], Block{homesteads:forager_bench}[facing=south], Block{homesteads:forager_bench}[facing=east]], maxTickets=1, validRange=1]
-[19:43:42] [main/INFO]: === Registering villager professions ===
-[19:43:42] [main/INFO]: Registering profession: home_steader with POI: tanning_rack_poi
-[19:43:42] [main/INFO]: Created POI key: homesteads:tanning_rack_poi
-[19:43:42] [main/INFO]: Successfully registered profession: home_steader -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.home_steader', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000785f6ce60310@20524ef4, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000785f6ce60568@533a3631, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.wool.hit, fixedRange=Optional.empty]]
-[19:43:42] [main/INFO]: Registering profession: bee_keeper with POI: honey_bottling_station_poi
-[19:43:42] [main/INFO]: Created POI key: homesteads:honey_bottling_station_poi
-[19:43:42] [main/INFO]: Successfully registered profession: bee_keeper -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.bee_keeper', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000785f6ce60310@2fead0ba, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000785f6ce60568@752604d8, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.honey_block.place, fixedRange=Optional.empty]]
-[19:43:42] [main/INFO]: Registering profession: lumber_jack with POI: wood_work_log_poi
-[19:43:42] [main/INFO]: Created POI key: homesteads:wood_work_log_poi
-[19:43:42] [main/INFO]: Successfully registered profession: lumber_jack -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.lumber_jack', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000785f6ce60310@45a91f81, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000785f6ce60568@71d83700, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.wood.break, fixedRange=Optional.empty]]
-[19:43:42] [main/INFO]: Registering profession: prospector with POI: prospectors_bench_poi
-[19:43:42] [main/INFO]: Created POI key: homesteads:prospectors_bench_poi
-[19:43:42] [main/INFO]: Successfully registered profession: prospector -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.prospector', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000785f6ce60310@688ec46, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000785f6ce60568@6ff61b4a, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.stone.break, fixedRange=Optional.empty]]
-[19:43:42] [main/INFO]: Registering profession: forager with POI: forager_bench_poi
-[19:43:42] [main/INFO]: Created POI key: homesteads:forager_bench_poi
-[19:43:42] [main/INFO]: Successfully registered profession: forager -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.forager', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000785f6ce60310@3e16d768, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000785f6ce60568@2f6c7796, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.flowering_azalea.step, fixedRange=Optional.empty]]
-[19:43:42] [main/INFO]: === Registration Complete ===
-[19:43:42] [main/INFO]: === All registered POI types ===
-[19:43:42] [main/INFO]: POI: homesteads:forager_bench_poi -> class_4158[matchingStates=[Block{homesteads:forager_bench}[facing=north], Block{homesteads:forager_bench}[facing=west], Block{homesteads:forager_bench}[facing=south], Block{homesteads:forager_bench}[facing=east]], maxTickets=1, validRange=1]
-[19:43:42] [main/INFO]: POI: homesteads:wood_work_log_poi -> class_4158[matchingStates=[Block{homesteads:wood_work_log}[facing=west], Block{homesteads:wood_work_log}[facing=east], Block{homesteads:wood_work_log}[facing=south], Block{homesteads:wood_work_log}[facing=north]], maxTickets=1, validRange=1]
-[19:43:42] [main/INFO]: POI: homesteads:tanning_rack_poi -> class_4158[matchingStates=[Block{homesteads:tanning_rack}[facing=south], Block{homesteads:tanning_rack}[facing=west], Block{homesteads:tanning_rack}[facing=north], Block{homesteads:tanning_rack}[facing=east]], maxTickets=1, validRange=1]
-[19:43:42] [main/INFO]: POI: homesteads:honey_bottling_station_poi -> class_4158[matchingStates=[Block{homesteads:honey_bottling_station}[facing=south], Block{homesteads:honey_bottling_station}[facing=west], Block{homesteads:honey_bottling_station}[facing=north], Block{homesteads:honey_bottling_station}[facing=east]], maxTickets=1, validRange=1]
-[19:43:42] [main/INFO]: POI: homesteads:prospectors_bench_poi -> class_4158[matchingStates=[Block{homesteads:prospectors_bench}[facing=east], Block{homesteads:prospectors_bench}[facing=north], Block{homesteads:prospectors_bench}[facing=south], Block{homesteads:prospectors_bench}[facing=west]], maxTickets=1, validRange=1]
-[19:43:42] [main/INFO]: === All registered villager professions ===
-[19:43:42] [main/INFO]: Profession: homesteads:forager -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.forager', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000785f6ce60310@3e16d768, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000785f6ce60568@2f6c7796, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.flowering_azalea.step, fixedRange=Optional.empty]]
-[19:43:42] [main/INFO]: Profession: homesteads:prospector -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.prospector', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000785f6ce60310@688ec46, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000785f6ce60568@6ff61b4a, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.stone.break, fixedRange=Optional.empty]]
-[19:43:42] [main/INFO]: Profession: homesteads:bee_keeper -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.bee_keeper', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000785f6ce60310@2fead0ba, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000785f6ce60568@752604d8, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.honey_block.place, fixedRange=Optional.empty]]
-[19:43:42] [main/INFO]: Profession: homesteads:home_steader -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.home_steader', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000785f6ce60310@20524ef4, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000785f6ce60568@533a3631, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.wool.hit, fixedRange=Optional.empty]]
-[19:43:42] [main/INFO]: Profession: homesteads:lumber_jack -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.lumber_jack', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000785f6ce60310@45a91f81, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000785f6ce60568@71d83700, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.wood.break, fixedRange=Optional.empty]]
-[19:43:42] [main/INFO]: Homesteads initialized!
-[19:43:42] [main/INFO]: Initializing ServerSide Packet Registries
-[19:43:42] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
-[19:43:42] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
-[19:43:42] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
-[19:43:42] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
-[19:43:42] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
-[19:43:42] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
-[19:43:42] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
-[19:43:42] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
-[19:43:42] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
-[19:43:42] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[19:43:42] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[19:43:42] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[19:43:42] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[19:43:42] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[19:43:42] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[19:43:42] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[19:43:42] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
-[19:43:42] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
-[19:43:42] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
-[19:43:42] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
-[19:43:43] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:43:43] [main/INFO]: Found new data pack biomesoplenty, loading it automatically
-[19:43:43] [main/INFO]: Found new data pack fabric, loading it automatically
-[19:43:43] [main/INFO]: Found new data pack fabric-convention-tags-v2, loading it automatically
-[19:43:43] [main/INFO]: Found new data pack formationsnether, loading it automatically
-[19:43:43] [main/INFO]: Found new data pack formationsoverworld, loading it automatically
-[19:43:43] [main/INFO]: Found new data pack goblintraders, loading it automatically
-[19:43:43] [main/INFO]: Found new data pack homesteads, loading it automatically
-[19:43:43] [main/INFO]: Found new data pack mes, loading it automatically
-[19:43:43] [main/INFO]: Found new data pack t_and_t, loading it automatically
-[19:43:43] [main/INFO]: Found new data pack terrablender, loading it automatically
-[19:43:43] [main/INFO]: Found new data pack travelersbackpack, loading it automatically
-[19:43:45] [main/INFO]: Loaded 1889 recipes
-[19:43:45] [main/INFO]: Loaded 2032 advancements
-[19:43:46] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[19:43:46] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[19:43:46] [main/INFO]: Applied 0 biome modifications to 0 of 134 new biomes in 2.349 ms
-[19:43:46] [Server thread/INFO]: Loading server configs...
-[19:43:46] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[19:43:46] [Server thread/INFO]: Loading properties
-[19:43:46] [Server thread/INFO]: Default game type: SURVIVAL
-[19:43:46] [Server thread/INFO]: Generating keypair
-[19:43:46] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:43:46] [Server thread/INFO]: Using epoll channel type
-[19:43:46] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:43:46] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:43:46] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:43:46] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:43:46] [Server thread/INFO]: Preparing level "world"
-[19:43:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:43:52] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:43:52] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:43:52] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:43:52] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:43:52] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:43:52] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:43:52] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:43:52] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:43:52] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:43:52] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:43:52] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:43:52] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:43:52] [Server thread/INFO]: Time elapsed: 5612 ms
-[19:43:52] [Server thread/INFO]: Done (6.045s)! For help, type "help"
-[19:43:52] [Server thread/INFO]: [REI] ----------------------------------------
-[19:43:52] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for START.
-[19:43:52] [Server thread/INFO]: [REI] Plugins (3):
-[19:43:52] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[19:43:52] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[19:43:52] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[19:43:52] [Server thread/INFO]: [REI] ----------------------------------------
-[19:43:52] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for START in 2.364 ms, totaling 77.83 ms.
-[19:43:52] [Server thread/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-[19:43:52] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for END.
-[19:43:52] [Server thread/INFO]: [REI] Plugins (3):
-[19:43:52] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[19:43:52] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[19:43:52] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[19:43:52] [Server thread/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-[19:43:52] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 3.919 ms, totaling 98.47 ms.
-[19:43:52] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
-[19:43:52] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
-[19:43:52] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
-[19:43:52] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
-[19:43:52] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
-[19:43:52] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
-[19:43:52] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@5af160e0 for service interface journeymap.api.services.ClientPlatformService
-[19:43:52] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@35ddcb0e for service interface journeymap.api.services.CommonPlatformService
-[19:43:52] [Server thread/INFO]: global (FirstLoaded) Setting config file to version "6.0.0-beta.52": journeymap.server.global.config
-[19:43:52] [Server thread/INFO]: global (Valid) Creating config file: journeymap/server/6.0/journeymap.server.global.config
-[19:43:52] [Server thread/INFO]: default (FirstLoaded) Setting config file to version "6.0.0-beta.52": journeymap.server.default.config
-[19:43:52] [Server thread/INFO]: default (Valid) Creating config file: journeymap/server/6.0/journeymap.server.default.config
-[19:43:52] [Server thread/INFO]: minecraft~overworld (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~overworld.config
-[19:43:52] [Server thread/INFO]: minecraft~the_nether (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~the_nether.config
-[19:43:52] [Server thread/INFO]: minecraft~the_end (Valid) Creating config file: journeymap/server/6.0/journeymap.server.minecraft~the_end.config
-[19:44:52] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[19:45:08] [Server thread/INFO]: dotitwo[/127.91.122.73:36497] logged in with entity id 23 at (-558.5, 76.0, 23.5)
-[19:45:08] [Server thread/INFO]: Loading config from file...
-[19:45:08] [Server thread/INFO]: dotitwo joined the game
-[19:45:14] [Server thread/INFO]: curbelio[/127.213.240.16:41599] logged in with entity id 60 at (-562.5, 77.0, 24.5)
-[19:45:14] [Server thread/INFO]: Loading config from file...
-[19:45:14] [Server thread/INFO]: curbelio joined the game
-[19:46:51] [Server thread/INFO]: dotitwo lost connection: Disconnected
-[19:46:51] [Server thread/INFO]: dotitwo left the game
-[19:50:51] [Server thread/INFO]: curbelio tried to swim in lava
-[19:53:40] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=1488, y=82, z=747}
-[19:55:04] [Server thread/INFO]: curbelio has made the advancement [Sweet Dreams]
-[20:00:32] [Server thread/INFO]: curbelio has made the advancement [Stone Age]
-[20:02:23] [Server thread/INFO]: curbelio has made the advancement [Getting an Upgrade]
-[20:06:09] [Server thread/INFO]: curbelio has made the advancement [Acquire Hardware]
-[20:07:03] [Server thread/INFO]: curbelio has made the advancement [Monster Hunter]
-[20:08:16] [Server thread/INFO]: curbelio has made the advancement [Suit Up]
-[20:28:34] [Server thread/INFO]: curbelio lost connection: Disconnected
-[20:28:34] [Server thread/INFO]: curbelio left the game
-[20:29:34] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[22:31:03] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/silver-succotash/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[22:31:03] [main/INFO]: Compatibility level set to JAVA_21
+[22:31:03] [main/WARN]: Reference map 'cristellib-common-common-refmap.json' for cristellib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:31:03] [main/WARN]: Reference map 'formationsnether.mixins.refmap.json' for formationsnether.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:31:03] [main/WARN]: Reference map 'formationsoverworld.mixins.refmap.json' for formationsoverworld.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:31:03] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:31:03] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:31:04] [main/WARN]: Error loading class: net/minecraft/class_897 (java.lang.ClassNotFoundException: net/minecraft/class_897)
+[22:31:04] [main/WARN]: @Mixin target net.minecraft.class_897 was not found geckolib.mixins.json:client.EntityRendererMixin from mod geckolib
+[22:31:04] [main/WARN]: Error loading class: net/minecraft/class_938 (java.lang.ClassNotFoundException: net/minecraft/class_938)
+[22:31:04] [main/WARN]: @Mixin target net.minecraft.class_938 was not found journeymap.mixins.json:client.SalmonRendererInvoker from mod journeymap
+[22:31:05] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[22:31:05] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[22:31:12] [main/INFO]: EssentialF3 mod loaded successfully! F3 replacement is now active.
+[22:31:12] [main/INFO]: Reflections took 82 ms to scan 2 urls, producing 7 keys and 77 values
+[22:31:14] [main/INFO]: Registering block: tanning_rack
+[22:31:14] [main/INFO]: Block registry key: ResourceKey[minecraft:block / homesteads:tanning_rack]
+[22:31:14] [main/INFO]: Successfully registered block: tanning_rack
+[22:31:14] [main/INFO]: Registering block: honey_bottling_station
+[22:31:14] [main/INFO]: Block registry key: ResourceKey[minecraft:block / homesteads:honey_bottling_station]
+[22:31:15] [main/INFO]: Successfully registered block: honey_bottling_station
+[22:31:15] [main/INFO]: Registering block: wood_work_log
+[22:31:15] [main/INFO]: Block registry key: ResourceKey[minecraft:block / homesteads:wood_work_log]
+[22:31:15] [main/INFO]: Successfully registered block: wood_work_log
+[22:31:15] [main/INFO]: Registering block: prospectors_bench
+[22:31:15] [main/INFO]: Block registry key: ResourceKey[minecraft:block / homesteads:prospectors_bench]
+[22:31:15] [main/INFO]: Successfully registered block: prospectors_bench
+[22:31:15] [main/INFO]: Registering block: forager_bench
+[22:31:15] [main/INFO]: Block registry key: ResourceKey[minecraft:block / homesteads:forager_bench]
+[22:31:15] [main/INFO]: Successfully registered block: forager_bench
+[22:31:15] [main/INFO]: ModBlocks.initialize() called
+[22:31:15] [main/INFO]: ModBlocks registration complete
+[22:31:15] [main/INFO]: ModItems.initialize() called
+[22:31:15] [main/INFO]: TANNING_RACK item: homesteads:tanning_rack
+[22:31:15] [main/INFO]: === Starting POI and Profession Registration ===
+[22:31:15] [main/INFO]: Verifying blocks exist:
+[22:31:15] [main/INFO]: TANNING_RACK: Block{homesteads:tanning_rack}
+[22:31:15] [main/INFO]: BOTTELING_STATION: Block{homesteads:honey_bottling_station}
+[22:31:15] [main/INFO]: WOOD_WORK_LOG: Block{homesteads:wood_work_log}
+[22:31:15] [main/INFO]: PROSPECTORS_BENCH: Block{homesteads:prospectors_bench}
+[22:31:15] [main/INFO]: FORAGER_BENCH: Block{homesteads:forager_bench}
+[22:31:15] [main/INFO]: === Registering POI types ===
+[22:31:15] [main/INFO]: Registering POI: tanning_rack_poi with block: homesteads:tanning_rack
+[22:31:15] [main/INFO]: Successfully registered POI: tanning_rack_poi -> class_4158[matchingStates=[Block{homesteads:tanning_rack}[facing=east], Block{homesteads:tanning_rack}[facing=south], Block{homesteads:tanning_rack}[facing=west], Block{homesteads:tanning_rack}[facing=north]], maxTickets=1, validRange=1]
+[22:31:15] [main/INFO]: Registering POI: honey_bottling_station_poi with block: homesteads:honey_bottling_station
+[22:31:15] [main/INFO]: Successfully registered POI: honey_bottling_station_poi -> class_4158[matchingStates=[Block{homesteads:honey_bottling_station}[facing=east], Block{homesteads:honey_bottling_station}[facing=north], Block{homesteads:honey_bottling_station}[facing=south], Block{homesteads:honey_bottling_station}[facing=west]], maxTickets=1, validRange=1]
+[22:31:15] [main/INFO]: Registering POI: wood_work_log_poi with block: homesteads:wood_work_log
+[22:31:15] [main/INFO]: Successfully registered POI: wood_work_log_poi -> class_4158[matchingStates=[Block{homesteads:wood_work_log}[facing=west], Block{homesteads:wood_work_log}[facing=south], Block{homesteads:wood_work_log}[facing=east], Block{homesteads:wood_work_log}[facing=north]], maxTickets=1, validRange=1]
+[22:31:15] [main/INFO]: Registering POI: prospectors_bench_poi with block: homesteads:prospectors_bench
+[22:31:15] [main/INFO]: Successfully registered POI: prospectors_bench_poi -> class_4158[matchingStates=[Block{homesteads:prospectors_bench}[facing=north], Block{homesteads:prospectors_bench}[facing=west], Block{homesteads:prospectors_bench}[facing=east], Block{homesteads:prospectors_bench}[facing=south]], maxTickets=1, validRange=1]
+[22:31:15] [main/INFO]: Registering POI: forager_bench_poi with block: homesteads:forager_bench
+[22:31:15] [main/INFO]: Successfully registered POI: forager_bench_poi -> class_4158[matchingStates=[Block{homesteads:forager_bench}[facing=north], Block{homesteads:forager_bench}[facing=south], Block{homesteads:forager_bench}[facing=west], Block{homesteads:forager_bench}[facing=east]], maxTickets=1, validRange=1]
+[22:31:15] [main/INFO]: === Registering villager professions ===
+[22:31:15] [main/INFO]: Registering profession: home_steader with POI: tanning_rack_poi
+[22:31:15] [main/INFO]: Created POI key: homesteads:tanning_rack_poi
+[22:31:15] [main/INFO]: Successfully registered profession: home_steader -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.home_steader', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000712c70e5de98@bf4b664, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000712c70e5e0f0@3ae88a25, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.wool.hit, fixedRange=Optional.empty]]
+[22:31:15] [main/INFO]: Registering profession: bee_keeper with POI: honey_bottling_station_poi
+[22:31:15] [main/INFO]: Created POI key: homesteads:honey_bottling_station_poi
+[22:31:15] [main/INFO]: Successfully registered profession: bee_keeper -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.bee_keeper', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000712c70e5de98@770f9cbc, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000712c70e5e0f0@3c43e8d8, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.honey_block.place, fixedRange=Optional.empty]]
+[22:31:15] [main/INFO]: Registering profession: lumber_jack with POI: wood_work_log_poi
+[22:31:15] [main/INFO]: Created POI key: homesteads:wood_work_log_poi
+[22:31:15] [main/INFO]: Successfully registered profession: lumber_jack -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.lumber_jack', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000712c70e5de98@742573d5, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000712c70e5e0f0@58f79eeb, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.wood.break, fixedRange=Optional.empty]]
+[22:31:15] [main/INFO]: Registering profession: prospector with POI: prospectors_bench_poi
+[22:31:15] [main/INFO]: Created POI key: homesteads:prospectors_bench_poi
+[22:31:15] [main/INFO]: Successfully registered profession: prospector -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.prospector', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000712c70e5de98@647b4c49, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000712c70e5e0f0@6f3052e9, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.stone.break, fixedRange=Optional.empty]]
+[22:31:15] [main/INFO]: Registering profession: forager with POI: forager_bench_poi
+[22:31:15] [main/INFO]: Created POI key: homesteads:forager_bench_poi
+[22:31:15] [main/INFO]: Successfully registered profession: forager -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.forager', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000712c70e5de98@409a3d8f, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000712c70e5e0f0@10c305fd, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.flowering_azalea.step, fixedRange=Optional.empty]]
+[22:31:15] [main/INFO]: === Registration Complete ===
+[22:31:15] [main/INFO]: === All registered POI types ===
+[22:31:15] [main/INFO]: POI: homesteads:forager_bench_poi -> class_4158[matchingStates=[Block{homesteads:forager_bench}[facing=north], Block{homesteads:forager_bench}[facing=south], Block{homesteads:forager_bench}[facing=west], Block{homesteads:forager_bench}[facing=east]], maxTickets=1, validRange=1]
+[22:31:15] [main/INFO]: POI: homesteads:tanning_rack_poi -> class_4158[matchingStates=[Block{homesteads:tanning_rack}[facing=east], Block{homesteads:tanning_rack}[facing=south], Block{homesteads:tanning_rack}[facing=west], Block{homesteads:tanning_rack}[facing=north]], maxTickets=1, validRange=1]
+[22:31:15] [main/INFO]: POI: homesteads:honey_bottling_station_poi -> class_4158[matchingStates=[Block{homesteads:honey_bottling_station}[facing=east], Block{homesteads:honey_bottling_station}[facing=north], Block{homesteads:honey_bottling_station}[facing=south], Block{homesteads:honey_bottling_station}[facing=west]], maxTickets=1, validRange=1]
+[22:31:15] [main/INFO]: POI: homesteads:wood_work_log_poi -> class_4158[matchingStates=[Block{homesteads:wood_work_log}[facing=west], Block{homesteads:wood_work_log}[facing=south], Block{homesteads:wood_work_log}[facing=east], Block{homesteads:wood_work_log}[facing=north]], maxTickets=1, validRange=1]
+[22:31:15] [main/INFO]: POI: homesteads:prospectors_bench_poi -> class_4158[matchingStates=[Block{homesteads:prospectors_bench}[facing=north], Block{homesteads:prospectors_bench}[facing=west], Block{homesteads:prospectors_bench}[facing=east], Block{homesteads:prospectors_bench}[facing=south]], maxTickets=1, validRange=1]
+[22:31:15] [main/INFO]: === All registered villager professions ===
+[22:31:15] [main/INFO]: Profession: homesteads:forager -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.forager', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000712c70e5de98@409a3d8f, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000712c70e5e0f0@10c305fd, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.flowering_azalea.step, fixedRange=Optional.empty]]
+[22:31:15] [main/INFO]: Profession: homesteads:lumber_jack -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.lumber_jack', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000712c70e5de98@742573d5, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000712c70e5e0f0@58f79eeb, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.wood.break, fixedRange=Optional.empty]]
+[22:31:15] [main/INFO]: Profession: homesteads:bee_keeper -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.bee_keeper', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000712c70e5de98@770f9cbc, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000712c70e5e0f0@3c43e8d8, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.honey_block.place, fixedRange=Optional.empty]]
+[22:31:15] [main/INFO]: Profession: homesteads:home_steader -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.home_steader', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000712c70e5de98@bf4b664, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000712c70e5e0f0@3ae88a25, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.wool.hit, fixedRange=Optional.empty]]
+[22:31:15] [main/INFO]: Profession: homesteads:prospector -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.prospector', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000712c70e5de98@647b4c49, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000712c70e5e0f0@6f3052e9, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.stone.break, fixedRange=Optional.empty]]
+[22:31:15] [main/INFO]: Homesteads initialized!
+[22:31:15] [main/INFO]: Initializing ServerSide Packet Registries
+[22:31:15] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[22:31:15] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
+[22:31:15] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
+[22:31:15] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
+[22:31:15] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[22:31:15] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[22:31:15] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[22:31:15] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[22:31:15] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[22:31:15] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[22:31:15] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[22:31:15] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[22:31:15] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[22:31:15] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[22:31:15] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[22:31:15] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[22:31:17] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[22:31:17] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[22:31:17] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[22:31:17] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[22:31:17] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:31:19] [main/INFO]: Loaded 1889 recipes
+[22:31:19] [main/INFO]: Loaded 2032 advancements
+[22:31:20] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[22:31:20] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[22:31:20] [main/INFO]: Applied 0 biome modifications to 0 of 134 new biomes in 1.869 ms
+[22:31:20] [Server thread/INFO]: Loading server configs...
+[22:31:20] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[22:31:20] [Server thread/INFO]: Loading properties
+[22:31:20] [Server thread/INFO]: Default game type: SURVIVAL
+[22:31:20] [Server thread/INFO]: Generating keypair
+[22:31:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:31:20] [Server thread/INFO]: Using epoll channel type
+[22:31:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:31:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:31:20] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:31:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:31:20] [Server thread/INFO]: Preparing level "world"
+[22:31:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:31:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[22:31:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[22:31:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[22:31:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[22:31:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[22:31:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[22:31:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[22:31:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[22:31:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[22:31:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[22:31:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[22:31:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[22:31:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[22:31:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[22:31:28] [Worker-Main-2/INFO]: Preparing spawn area: 28%
+[22:31:28] [Worker-Main-3/INFO]: Preparing spawn area: 63%
+[22:31:28] [Server thread/INFO]: Time elapsed: 7540 ms
+[22:31:28] [Server thread/INFO]: Done (8.090s)! For help, type "help"
+[22:31:28] [Server thread/INFO]: [REI] ****************************************
+[22:31:28] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for START.
+[22:31:28] [Server thread/INFO]: [REI] Plugins (3):
+[22:31:28] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[22:31:28] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[22:31:28] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[22:31:28] [Server thread/INFO]: [REI] ****************************************
+[22:31:28] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for START in 1.991 ms, totaling 119.4 ms.
+[22:31:28] [Server thread/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[22:31:28] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for END.
+[22:31:28] [Server thread/INFO]: [REI] Plugins (3):
+[22:31:28] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[22:31:28] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[22:31:28] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[22:31:28] [Server thread/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
+[22:31:28] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 1.611 ms, totaling 82.10 ms.
+[22:31:28] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
+[22:31:28] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
+[22:31:28] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
+[22:31:28] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
+[22:31:28] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
+[22:31:28] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[22:31:28] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@61f4026c for service interface journeymap.api.services.ClientPlatformService
+[22:31:28] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@4da42ad8 for service interface journeymap.api.services.CommonPlatformService
+[22:32:28] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[22:32:43] [Server thread/INFO]: dotitwo[/127.149.242.101:39357] logged in with entity id 19 at (-553.7499699366278, 93.0, -18.309063477631685)
+[22:32:43] [Server thread/INFO]: Loading config from file...
+[22:32:43] [Server thread/INFO]: dotitwo joined the game
+[22:33:07] [Server thread/INFO]: Made dotitwo a server operator
+[22:36:36] [Server thread/INFO]: dotitwo has made the advancement [Sweet Dreams]
+[22:37:59] [Server thread/INFO]: dotitwo has made the advancement [A Seedy Place]
+[22:38:42] [Server thread/INFO]: dotitwo has made the advancement [Acquire Hardware]
