@@ -296,3 +296,7 @@
 [19:46:51] [Server thread/INFO]: dotitwo lost connection: Disconnected
 [19:46:51] [Server thread/INFO]: dotitwo left the game
 [19:50:51] [Server thread/INFO]: curbelio tried to swim in lava
+[19:53:40] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=1488, y=82, z=747}
+[19:55:04] [Server thread/INFO]: curbelio has made the advancement [Sweet Dreams]
+[20:00:32] [Server thread/INFO]: curbelio has made the advancement [Stone Age]
+[20:02:23] [Server thread/INFO]: curbelio has made the advancement [Getting an Upgrade]
