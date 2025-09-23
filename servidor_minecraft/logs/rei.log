@@ -621,3 +621,5 @@ java.lang.Throwable
 [11:58:12] [Server thread/DEBUG] [REI] Updating players with new displays version 5FF3A46700000001 [from 5FF3A46700000000]
 [11:59:02] [Server thread/DEBUG] [REI] Player dotitwo has outdated displays version 0 [latest version: 5FF3A46700000001]
 [11:59:02] [Server thread/DEBUG] [REI] Player dotitwo has outdated displays version 0 [latest version: 5FF3A46700000001], sending reset packet request.
+[12:28:28] [Server thread/DEBUG] [REI] Player avgus has outdated displays version 0 [latest version: 5FF3A46700000001]
+[12:28:28] [Server thread/DEBUG] [REI] Player avgus has outdated displays version 0 [latest version: 5FF3A46700000001], sending reset packet request.
