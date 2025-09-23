@@ -283,3 +283,19 @@
 [12:36:29] [Server thread/INFO]: dotitwo has made the advancement [Not Today, Thank You]
 [12:46:43] [Server thread/INFO]: avgus has made the advancement [Stone Age]
 [12:52:55] [Server thread/INFO]: avgus has made the advancement [Getting an Upgrade]
+[13:00:37] [Server thread/INFO]: avgus drowned
+[13:00:42] [Server thread/INFO]: dotitwo has made the advancement [Best Friends Forever]
+[13:01:11] [Server thread/INFO]: [dotitwo: Teleported avgus to dotitwo]
+[13:04:29] [Server thread/INFO]: Villager class_1646['Unemployed'/9857, l='ServerLevel[world]', x=-437.16, y=67.00, z=-280.15] died, message: 'Unemployed was slain by Zombie'
+[13:04:41] [Server thread/INFO]: Villager class_1646['Unemployed'/9856, l='ServerLevel[world]', x=-422.15, y=67.00, z=-280.15] died, message: 'Unemployed was slain by Zombie'
+[13:05:15] [Server thread/INFO]: avgus was poked to death by a sweet berry bush
+[13:06:14] [Server thread/INFO]: [Not Secure] <avgus> tp doti
+[13:06:40] [Server thread/INFO]: [dotitwo: Teleported avgus to dotitwo]
+[13:06:56] [Server thread/INFO]: Villager class_1646['Farmer'/10035, l='ServerLevel[world]', x=-504.54, y=102.77, z=-378.30] died, message: 'Farmer was slain by Zombie'
+[13:08:39] [Server thread/INFO]: [dotitwo: Set the time to 1000]
+[13:09:23] [Server thread/INFO]: [dotitwo: Set the time to 1000]
+[13:09:27] [Server thread/INFO]: [dotitwo: Teleported avgus to dotitwo]
+[13:13:02] [Server thread/INFO]: [dotitwo: Teleported avgus to dotitwo]
+[13:15:15] [Server thread/INFO]: dotitwo has made the advancement [Local Brewery]
+[13:16:13] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=1517, y=82, z=743}
+[13:17:03] [Server thread/INFO]: [dotitwo: Teleported avgus to dotitwo]
