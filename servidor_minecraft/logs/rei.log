@@ -621,3 +621,7 @@ java.lang.Throwable
 [01:03:49] [Server thread/DEBUG] [REI] Updating players with new displays version 7FD67C2000000001 [from 7FD67C2000000000]
 [01:04:29] [Server thread/DEBUG] [REI] Player dotitwo has outdated displays version 0 [latest version: 7FD67C2000000001]
 [01:04:29] [Server thread/DEBUG] [REI] Player dotitwo has outdated displays version 0 [latest version: 7FD67C2000000001], sending reset packet request.
+[02:16:19] [Server thread/DEBUG] [REI] Player 23Maikk has outdated displays version 0 [latest version: 7FD67C2000000001]
+[02:16:19] [Server thread/DEBUG] [REI] Player 23Maikk has outdated displays version 0 [latest version: 7FD67C2000000001], sending reset packet request.
+[02:25:42] [Server thread/DEBUG] [REI] Player dotitwo has outdated displays version 0 [latest version: 7FD67C2000000001]
+[02:25:42] [Server thread/DEBUG] [REI] Player dotitwo has outdated displays version 0 [latest version: 7FD67C2000000001], sending reset packet request.
