@@ -1,5 +1,5 @@
-[01:03:25] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.16.14
-[01:03:25] [main/INFO]: Loading 99 mods:
+[12:45:05] [main/INFO]: Loading Minecraft 1.21.8 with Fabric Loader 0.16.14
+[12:45:06] [main/INFO]: Loading 99 mods:
 	- appleskin 3.0.6+mc1.21.6
 	- architectury 17.0.8
 	- biomesoplenty 21.8.0.17
@@ -108,747 +108,167 @@
 	- t_and_t 1.13.5
 	- terrablender 6.0.0.3
 	- travelersbackpack 10.8.2
-[01:03:26] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/silver-succotash/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[01:03:26] [main/INFO]: Compatibility level set to JAVA_21
-[01:03:26] [main/WARN]: Reference map 'cristellib-common-common-refmap.json' for cristellib-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[01:03:26] [main/WARN]: Reference map 'formationsnether.mixins.refmap.json' for formationsnether.mixins.json could not be read. If this is a development environment you can ignore this message
-[01:03:26] [main/WARN]: Reference map 'formationsoverworld.mixins.refmap.json' for formationsoverworld.mixins.json could not be read. If this is a development environment you can ignore this message
-[01:03:26] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
-[01:03:26] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[01:03:26] [main/WARN]: Error loading class: net/minecraft/class_897 (java.lang.ClassNotFoundException: net/minecraft/class_897)
-[01:03:26] [main/WARN]: @Mixin target net.minecraft.class_897 was not found geckolib.mixins.json:client.EntityRendererMixin from mod geckolib
-[01:03:26] [main/WARN]: Error loading class: net/minecraft/class_938 (java.lang.ClassNotFoundException: net/minecraft/class_938)
-[01:03:26] [main/WARN]: @Mixin target net.minecraft.class_938 was not found journeymap.mixins.json:client.SalmonRendererInvoker from mod journeymap
-[01:03:26] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[01:03:27] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[01:03:34] [main/INFO]: EssentialF3 mod loaded successfully! F3 replacement is now active.
-[01:03:34] [main/INFO]: Reflections took 121 ms to scan 2 urls, producing 7 keys and 77 values
-[01:03:36] [main/INFO]: Registering block: tanning_rack
-[01:03:36] [main/INFO]: Block registry key: ResourceKey[minecraft:block / homesteads:tanning_rack]
-[01:03:36] [main/INFO]: Successfully registered block: tanning_rack
-[01:03:36] [main/INFO]: Registering block: honey_bottling_station
-[01:03:36] [main/INFO]: Block registry key: ResourceKey[minecraft:block / homesteads:honey_bottling_station]
-[01:03:36] [main/INFO]: Successfully registered block: honey_bottling_station
-[01:03:36] [main/INFO]: Registering block: wood_work_log
-[01:03:36] [main/INFO]: Block registry key: ResourceKey[minecraft:block / homesteads:wood_work_log]
-[01:03:36] [main/INFO]: Successfully registered block: wood_work_log
-[01:03:36] [main/INFO]: Registering block: prospectors_bench
-[01:03:36] [main/INFO]: Block registry key: ResourceKey[minecraft:block / homesteads:prospectors_bench]
-[01:03:36] [main/INFO]: Successfully registered block: prospectors_bench
-[01:03:36] [main/INFO]: Registering block: forager_bench
-[01:03:36] [main/INFO]: Block registry key: ResourceKey[minecraft:block / homesteads:forager_bench]
-[01:03:36] [main/INFO]: Successfully registered block: forager_bench
-[01:03:36] [main/INFO]: ModBlocks.initialize() called
-[01:03:36] [main/INFO]: ModBlocks registration complete
-[01:03:36] [main/INFO]: ModItems.initialize() called
-[01:03:36] [main/INFO]: TANNING_RACK item: homesteads:tanning_rack
-[01:03:36] [main/INFO]: === Starting POI and Profession Registration ===
-[01:03:36] [main/INFO]: Verifying blocks exist:
-[01:03:36] [main/INFO]: TANNING_RACK: Block{homesteads:tanning_rack}
-[01:03:36] [main/INFO]: BOTTELING_STATION: Block{homesteads:honey_bottling_station}
-[01:03:36] [main/INFO]: WOOD_WORK_LOG: Block{homesteads:wood_work_log}
-[01:03:36] [main/INFO]: PROSPECTORS_BENCH: Block{homesteads:prospectors_bench}
-[01:03:36] [main/INFO]: FORAGER_BENCH: Block{homesteads:forager_bench}
-[01:03:36] [main/INFO]: === Registering POI types ===
-[01:03:36] [main/INFO]: Registering POI: tanning_rack_poi with block: homesteads:tanning_rack
-[01:03:36] [main/INFO]: Successfully registered POI: tanning_rack_poi -> class_4158[matchingStates=[Block{homesteads:tanning_rack}[facing=west], Block{homesteads:tanning_rack}[facing=south], Block{homesteads:tanning_rack}[facing=north], Block{homesteads:tanning_rack}[facing=east]], maxTickets=1, validRange=1]
-[01:03:36] [main/INFO]: Registering POI: honey_bottling_station_poi with block: homesteads:honey_bottling_station
-[01:03:36] [main/INFO]: Successfully registered POI: honey_bottling_station_poi -> class_4158[matchingStates=[Block{homesteads:honey_bottling_station}[facing=north], Block{homesteads:honey_bottling_station}[facing=south], Block{homesteads:honey_bottling_station}[facing=east], Block{homesteads:honey_bottling_station}[facing=west]], maxTickets=1, validRange=1]
-[01:03:36] [main/INFO]: Registering POI: wood_work_log_poi with block: homesteads:wood_work_log
-[01:03:36] [main/INFO]: Successfully registered POI: wood_work_log_poi -> class_4158[matchingStates=[Block{homesteads:wood_work_log}[facing=north], Block{homesteads:wood_work_log}[facing=east], Block{homesteads:wood_work_log}[facing=south], Block{homesteads:wood_work_log}[facing=west]], maxTickets=1, validRange=1]
-[01:03:36] [main/INFO]: Registering POI: prospectors_bench_poi with block: homesteads:prospectors_bench
-[01:03:36] [main/INFO]: Successfully registered POI: prospectors_bench_poi -> class_4158[matchingStates=[Block{homesteads:prospectors_bench}[facing=east], Block{homesteads:prospectors_bench}[facing=north], Block{homesteads:prospectors_bench}[facing=south], Block{homesteads:prospectors_bench}[facing=west]], maxTickets=1, validRange=1]
-[01:03:36] [main/INFO]: Registering POI: forager_bench_poi with block: homesteads:forager_bench
-[01:03:36] [main/INFO]: Successfully registered POI: forager_bench_poi -> class_4158[matchingStates=[Block{homesteads:forager_bench}[facing=east], Block{homesteads:forager_bench}[facing=west], Block{homesteads:forager_bench}[facing=north], Block{homesteads:forager_bench}[facing=south]], maxTickets=1, validRange=1]
-[01:03:36] [main/INFO]: === Registering villager professions ===
-[01:03:36] [main/INFO]: Registering profession: home_steader with POI: tanning_rack_poi
-[01:03:36] [main/INFO]: Created POI key: homesteads:tanning_rack_poi
-[01:03:36] [main/INFO]: Successfully registered profession: home_steader -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.home_steader', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000730698e5e098@fc4d62e, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000730698e5e2f0@1a583585, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.wool.hit, fixedRange=Optional.empty]]
-[01:03:36] [main/INFO]: Registering profession: bee_keeper with POI: honey_bottling_station_poi
-[01:03:36] [main/INFO]: Created POI key: homesteads:honey_bottling_station_poi
-[01:03:36] [main/INFO]: Successfully registered profession: bee_keeper -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.bee_keeper', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000730698e5e098@462987b8, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000730698e5e2f0@1c6c0594, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.honey_block.place, fixedRange=Optional.empty]]
-[01:03:36] [main/INFO]: Registering profession: lumber_jack with POI: wood_work_log_poi
-[01:03:36] [main/INFO]: Created POI key: homesteads:wood_work_log_poi
-[01:03:36] [main/INFO]: Successfully registered profession: lumber_jack -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.lumber_jack', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000730698e5e098@257597e8, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000730698e5e2f0@41c7ad14, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.wood.break, fixedRange=Optional.empty]]
-[01:03:36] [main/INFO]: Registering profession: prospector with POI: prospectors_bench_poi
-[01:03:36] [main/INFO]: Created POI key: homesteads:prospectors_bench_poi
-[01:03:36] [main/INFO]: Successfully registered profession: prospector -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.prospector', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000730698e5e098@4cfd3da9, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000730698e5e2f0@2caef606, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.stone.break, fixedRange=Optional.empty]]
-[01:03:36] [main/INFO]: Registering profession: forager with POI: forager_bench_poi
-[01:03:36] [main/INFO]: Created POI key: homesteads:forager_bench_poi
-[01:03:36] [main/INFO]: Successfully registered profession: forager -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.forager', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000730698e5e098@435ccc80, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000730698e5e2f0@6737cb34, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.flowering_azalea.step, fixedRange=Optional.empty]]
-[01:03:36] [main/INFO]: === Registration Complete ===
-[01:03:36] [main/INFO]: === All registered POI types ===
-[01:03:36] [main/INFO]: POI: homesteads:forager_bench_poi -> class_4158[matchingStates=[Block{homesteads:forager_bench}[facing=east], Block{homesteads:forager_bench}[facing=west], Block{homesteads:forager_bench}[facing=north], Block{homesteads:forager_bench}[facing=south]], maxTickets=1, validRange=1]
-[01:03:36] [main/INFO]: POI: homesteads:wood_work_log_poi -> class_4158[matchingStates=[Block{homesteads:wood_work_log}[facing=north], Block{homesteads:wood_work_log}[facing=east], Block{homesteads:wood_work_log}[facing=south], Block{homesteads:wood_work_log}[facing=west]], maxTickets=1, validRange=1]
-[01:03:36] [main/INFO]: POI: homesteads:honey_bottling_station_poi -> class_4158[matchingStates=[Block{homesteads:honey_bottling_station}[facing=north], Block{homesteads:honey_bottling_station}[facing=south], Block{homesteads:honey_bottling_station}[facing=east], Block{homesteads:honey_bottling_station}[facing=west]], maxTickets=1, validRange=1]
-[01:03:36] [main/INFO]: POI: homesteads:prospectors_bench_poi -> class_4158[matchingStates=[Block{homesteads:prospectors_bench}[facing=east], Block{homesteads:prospectors_bench}[facing=north], Block{homesteads:prospectors_bench}[facing=south], Block{homesteads:prospectors_bench}[facing=west]], maxTickets=1, validRange=1]
-[01:03:36] [main/INFO]: POI: homesteads:tanning_rack_poi -> class_4158[matchingStates=[Block{homesteads:tanning_rack}[facing=west], Block{homesteads:tanning_rack}[facing=south], Block{homesteads:tanning_rack}[facing=north], Block{homesteads:tanning_rack}[facing=east]], maxTickets=1, validRange=1]
-[01:03:36] [main/INFO]: === All registered villager professions ===
-[01:03:36] [main/INFO]: Profession: homesteads:lumber_jack -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.lumber_jack', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000730698e5e098@257597e8, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000730698e5e2f0@41c7ad14, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.wood.break, fixedRange=Optional.empty]]
-[01:03:36] [main/INFO]: Profession: homesteads:forager -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.forager', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000730698e5e098@435ccc80, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000730698e5e2f0@6737cb34, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.flowering_azalea.step, fixedRange=Optional.empty]]
-[01:03:36] [main/INFO]: Profession: homesteads:bee_keeper -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.bee_keeper', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000730698e5e098@462987b8, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000730698e5e2f0@1c6c0594, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.honey_block.place, fixedRange=Optional.empty]]
-[01:03:36] [main/INFO]: Profession: homesteads:prospector -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.prospector', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000730698e5e098@4cfd3da9, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000730698e5e2f0@2caef606, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.stone.break, fixedRange=Optional.empty]]
-[01:03:36] [main/INFO]: Profession: homesteads:home_steader -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.home_steader', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000730698e5e098@fc4d62e, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000730698e5e2f0@1a583585, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.wool.hit, fixedRange=Optional.empty]]
-[01:03:36] [main/INFO]: Homesteads initialized!
-[01:03:36] [main/INFO]: Initializing ServerSide Packet Registries
-[01:03:36] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
-[01:03:36] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
-[01:03:36] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
-[01:03:36] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
-[01:03:36] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
-[01:03:36] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
-[01:03:36] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
-[01:03:36] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
-[01:03:36] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
-[01:03:36] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[01:03:36] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[01:03:36] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[01:03:36] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[01:03:36] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[01:03:36] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[01:03:36] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[01:03:38] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
-[01:03:38] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
-[01:03:38] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
-[01:03:38] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
-[01:03:38] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[01:03:40] [main/INFO]: Loaded 1889 recipes
-[01:03:40] [main/INFO]: Loaded 2032 advancements
-[01:03:40] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[01:03:41] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[01:03:41] [main/INFO]: Applied 0 biome modifications to 0 of 134 new biomes in 2.036 ms
-[01:03:41] [Server thread/INFO]: Loading server configs...
-[01:03:41] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[01:03:41] [Server thread/INFO]: Loading properties
-[01:03:41] [Server thread/INFO]: Default game type: SURVIVAL
-[01:03:41] [Server thread/INFO]: Generating keypair
-[01:03:41] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:03:41] [Server thread/INFO]: Using epoll channel type
-[01:03:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:03:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:03:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:03:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:03:41] [Server thread/INFO]: Preparing level "world"
-[01:03:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:03:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:03:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:03:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:03:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:03:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:03:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:03:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:03:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:03:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:03:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:03:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:03:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:03:48] [Worker-Main-3/INFO]: Preparing spawn area: 36%
-[01:03:48] [Server thread/INFO]: Time elapsed: 6470 ms
-[01:03:48] [Server thread/INFO]: Done (6.867s)! For help, type "help"
-[01:03:48] [Server thread/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-[01:03:48] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for START.
-[01:03:48] [Server thread/INFO]: [REI] Plugins (3):
-[01:03:48] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[01:03:48] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[01:03:48] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[01:03:48] [Server thread/INFO]: [REI] OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-[01:03:48] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for START in 3.063 ms, totaling 87.39 ms.
-[01:03:48] [Server thread/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[01:03:48] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for END.
-[01:03:48] [Server thread/INFO]: [REI] Plugins (3):
-[01:03:48] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[01:03:48] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[01:03:48] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[01:03:48] [Server thread/INFO]: [REI] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[01:03:48] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 942.2 μs, totaling 70.40 ms.
-[01:03:48] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
-[01:03:48] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
-[01:03:48] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
-[01:03:48] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
-[01:03:48] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
-[01:03:48] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
-[01:03:48] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@43259d97 for service interface journeymap.api.services.ClientPlatformService
-[01:03:48] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@704a526f for service interface journeymap.api.services.CommonPlatformService
-[01:04:29] [Server thread/INFO]: dotitwo[/127.155.78.192:54281] logged in with entity id 38 at (-554.5753430102266, 99.0, -61.80274445513342)
-[01:04:29] [Server thread/INFO]: Loading config from file...
-[01:04:29] [Server thread/INFO]: dotitwo joined the game
-[01:29:00] [Server thread/INFO]: [dotitwo: Set the time to 1000]
-[01:42:03] [Server thread/INFO]: [dotitwo: Set own game mode to Creative Mode]
-[01:43:47] [Server thread/INFO]: [dotitwo: Set own game mode to Survival Mode]
-[01:55:03] [Server thread/INFO]: [dotitwo: Set the time to 1000]
-[01:57:59] [Server thread/INFO]: dotitwo has made the advancement [Ol' Betsy]
-[01:57:59] [Server thread/INFO]: dotitwo has made the advancement [Take Aim]
-[01:59:52] [Server thread/INFO]: dotitwo has made the advancement [Who's the Pillager Now?]
-[02:01:20] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=1340, y=81, z=648}
-[02:01:39] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:39] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:39] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:39] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:39] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:39] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:39] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:39] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:39] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:39] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:39] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:39] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:40] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:40] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:40] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:40] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:40] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:40] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:40] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:40] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:40] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:40] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:40] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:40] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:40] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:40] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:40] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:40] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:40] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:40] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:40] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:40] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:41] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:41] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:41] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:41] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:41] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:41] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:41] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:41] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:41] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:41] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:41] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:41] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:41] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:41] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:41] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:41] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:41] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:41] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:41] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:41] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:42] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:42] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:42] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:42] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:42] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:42] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:42] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:42] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:42] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:42] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:42] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:42] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:42] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:42] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:42] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:42] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:42] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:42] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:42] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:42] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:43] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:43] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:43] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:43] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:43] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:43] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:43] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:43] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:43] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:43] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:43] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:43] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:43] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:43] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:43] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:43] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:43] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:43] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:43] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:43] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:44] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:44] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:44] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:44] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:44] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:44] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:44] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:44] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:44] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:44] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:44] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:44] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:44] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:44] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:44] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:44] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:44] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:44] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:44] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:44] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:45] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:45] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:45] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:45] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:45] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:45] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:45] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:45] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:45] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:45] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:45] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:45] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:45] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:45] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:45] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:45] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:45] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:45] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:45] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:45] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:46] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:46] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:46] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:46] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:46] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:46] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:46] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:46] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:46] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:46] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:46] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:46] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:46] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:46] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:46] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:46] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:46] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:46] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:46] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:46] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:47] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:47] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:47] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:47] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:47] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:47] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:47] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:47] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:47] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:47] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:47] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:47] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:47] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:47] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:47] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:47] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:47] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:47] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:47] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:47] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:48] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:48] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:48] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:48] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:48] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:48] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:48] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:48] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:48] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:48] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:48] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:48] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:48] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:48] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:48] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:48] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:48] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:48] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:48] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:48] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:49] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:49] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:49] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:49] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:49] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:49] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:49] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:49] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:49] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:49] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:49] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:49] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:49] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:49] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:49] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:49] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:49] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:49] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:49] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:49] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:50] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:50] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:50] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:50] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:50] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:50] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:50] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:50] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:50] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:50] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:50] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:50] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:50] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:50] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:50] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:50] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:50] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:50] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:50] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:50] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:51] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:51] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:51] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:51] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:51] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:51] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:51] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:51] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:51] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:51] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:51] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:51] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:51] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:51] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:51] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:51] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:51] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:51] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:51] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:51] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:52] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:52] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:52] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:52] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:52] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:52] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:52] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:52] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:52] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:52] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:52] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:52] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:52] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:52] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:52] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:52] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:52] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:52] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:52] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:52] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:53] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:53] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:53] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:53] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:53] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:53] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:53] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:53] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:53] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:53] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:53] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:53] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:53] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:53] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:53] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:53] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:53] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:53] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:53] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:53] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:54] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:54] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:54] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:54] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:54] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:54] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:54] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:54] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:54] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:54] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:54] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:54] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:54] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:54] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:54] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:54] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:54] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:54] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:54] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:54] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:55] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:55] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:55] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:55] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:55] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:55] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:55] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:55] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:55] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:55] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:55] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:55] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:55] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:55] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:55] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:55] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:55] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:55] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:55] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:55] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:56] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:56] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:56] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:56] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:56] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:56] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:56] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:56] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:56] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:56] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:56] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:56] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:56] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:56] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:56] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:56] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:56] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:56] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:56] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:56] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:57] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:57] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:57] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:57] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:57] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:57] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:57] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:57] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:57] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:57] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:57] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:57] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:57] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:57] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:57] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:57] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:57] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:57] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:57] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:57] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:58] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:58] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:58] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:58] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:58] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:58] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:58] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:58] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:58] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:58] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:58] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:58] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:58] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:58] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:58] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:58] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:58] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:58] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:58] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:58] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:59] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:59] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:59] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:59] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:59] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:59] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:59] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:59] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:59] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:59] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:59] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:59] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:59] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:59] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:59] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:59] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:59] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:59] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:59] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:01:59] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:00] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:00] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:00] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:00] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:00] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:00] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:00] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:00] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:00] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:00] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:00] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:00] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:00] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:00] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:00] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:00] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:00] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:00] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:00] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:00] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:01] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:01] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:01] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:01] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:01] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:01] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:01] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:01] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:01] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:01] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:01] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:01] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:01] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:01] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:01] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:01] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:01] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:01] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:01] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:01] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:02] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:02] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:02] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:02] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:02] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:02] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:02] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:02] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:02] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:02] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:02] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:02] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:02] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:02] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:02] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:02] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:02] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:02] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:02] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:02] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:03] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:03] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:03] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:03] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:02:03] [Server thread/INFO]: POI key homesteads:tanning_rack_poi matches entry for profession home_steader
-[02:06:28] [Server thread/INFO]: dotitwo has made the advancement [Ice Bucket Challenge]
-[02:11:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1446, y=71, z=66} class_2338{x=-1445, y=69, z=65}
-[02:11:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1444, y=70, z=68} class_2338{x=-1445, y=69, z=66}
-[02:14:55] [Server thread/INFO]: dotitwo lost connection: Disconnected
-[02:14:55] [Server thread/INFO]: dotitwo left the game
-[02:15:55] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[02:16:19] [Server thread/INFO]: 23Maikk[/127.33.53.236:47831] logged in with entity id 16224 at (-566.0336534633777, 79.0, 15.073644210492951)
-[02:16:19] [Server thread/INFO]: Loading config from file...
-[02:16:19] [Server thread/INFO]: 23Maikk joined the game
-[02:16:52] [Server thread/INFO]: 23Maikk teleported to -535.5 -12.0 -96.5 minecraft:overworld
-[02:17:04] [Server thread/INFO]: 23Maikk teleported to -551.0 102.0 -54.0 minecraft:overworld
-[02:17:32] [Server thread/INFO]: 23Maikk has made the advancement [Sweet Dreams]
-[02:19:16] [Server thread/INFO]: 23Maikk teleported to -444.0 65.0 -167.0 minecraft:overworld
-[02:22:20] [Server thread/INFO]: 23Maikk teleported to -463.0 70.0 -340.0 minecraft:overworld
-[02:23:00] [Server thread/INFO]: 23Maikk teleported to -394.0 70.0 -397.0 minecraft:overworld
-[02:23:43] [Server thread/INFO]: 23Maikk teleported to -362.0 70.0 -444.0 minecraft:overworld
-[02:25:05] [Server thread/INFO]: 23Maikk teleported to -282.0 65.0 -321.0 minecraft:overworld
-[02:25:16] [Server thread/INFO]: 23Maikk teleported to -317.0 63.0 -448.0 minecraft:overworld
-[02:25:42] [Server thread/INFO]: dotitwo[/127.155.78.192:54251] logged in with entity id 18800 at (-1309.9582256708263, 121.84375002384186, 79.101775460982)
-[02:25:42] [Server thread/INFO]: Loading config from file...
-[02:25:42] [Server thread/INFO]: dotitwo joined the game
-[02:26:08] [Server thread/INFO]: [Not Secure] <dotitwo> putita
-[02:26:18] [Server thread/INFO]: [Not Secure] <23Maikk> hola e
-[02:26:32] [Server thread/INFO]: 23Maikk teleported to -197.0 72.0 -260.0 minecraft:overworld
-[02:26:33] [Server thread/INFO]: [Not Secure] <dotitwo> estoy en narnia
-[02:26:38] [Server thread/INFO]: 23Maikk teleported to -223.0 72.0 -259.0 minecraft:overworld
-[02:27:08] [Server thread/INFO]: [Not Secure] <dotitwo> me hago tp
-[02:27:12] [Server thread/INFO]: [Not Secure] <23Maikk> oka
-[02:27:21] [Server thread/INFO]: [dotitwo: Teleported dotitwo to 23Maikk]
-[02:27:35] [Server thread/INFO]: [Not Secure] <23Maikk> hay mochila
-[02:27:38] [Server thread/INFO]: [Not Secure] <dotitwo> alto bioma
-[02:27:39] [Server thread/INFO]: [Not Secure] <23Maikk> como hago
-[02:27:41] [Server thread/INFO]: [Not Secure] <dotitwo> si
-[02:27:43] [Server thread/INFO]: [Not Secure] <23Maikk> mal
-[02:27:55] [Server thread/INFO]: [Not Secure] <dotitwo> con un cofre
-[02:27:59] [Server thread/INFO]: [Not Secure] <dotitwo> cuero
-[02:28:04] [Server thread/INFO]: [Not Secure] <dotitwo> y hilo
-[02:28:06] [Server thread/INFO]: [Not Secure] <23Maikk> no teng cuero
-[02:28:10] [Server thread/INFO]: [Not Secure] <23Maikk> nihilo
-[02:28:57] [Server thread/INFO]: [Not Secure] <23Maikk> hacela
-[02:29:03] [Server thread/INFO]: [Not Secure] <dotitwo> bo
-[02:29:05] [Server thread/INFO]: [Not Secure] <dotitwo> boy
-[02:29:40] [Server thread/INFO]: [Not Secure] <23Maikk> veo una casa
-[02:29:47] [Server thread/INFO]: [Not Secure] <dotitwo> ah y lana
-[02:30:00] [Server thread/INFO]: [Not Secure] <23Maikk> tengo lamna
-[02:30:07] [Server thread/INFO]: [Not Secure] <dotitwo> de q color
-[02:31:03] [Server thread/INFO]: [Not Secure] <dotitwo> tiene q ser dos lanas de colores
-[02:31:13] [Server thread/INFO]: [Not Secure] <23Maikk> toma
-[02:32:04] [Server thread/INFO]: 23Maikk has made the advancement [Getting an Upgrade]
-[02:32:14] [Server thread/INFO]: [Not Secure] <23Maikk> toma
-[02:32:52] [Server thread/INFO]: [Not Secure] <dotitwo> one more
-[02:32:57] [Server thread/INFO]: [Not Secure] <23Maikk> oka
-[02:34:01] [Server thread/INFO]: [Not Secure] <23Maikk> ak
-[02:34:11] [Server thread/INFO]: [Not Secure] <23Maikk> ovejjas negras
-[02:34:24] [Server thread/INFO]: [Not Secure] <dotitwo> voy
-[02:34:55] [Server thread/INFO]: 23Maikk teleported to 223.0 66.0 -472.0 minecraft:overworld
-[02:36:29] [Server thread/INFO]: [Not Secure] <dotitwo> y las obejas
-[02:36:37] [Server thread/INFO]: [Not Secure] <23Maikk> veni
-[02:36:47] [Server thread/INFO]: [Not Secure] <23Maikk> ttengo la lana yo
-[02:37:52] [Server thread/INFO]: [Not Secure] <23Maikk> como saco la voz que habla
-[02:38:20] [Server thread/INFO]: [Not Secure] <dotitwo> opciones
-[02:38:20] [Server thread/INFO]: [Not Secure] <23Maikk> ya ta
-[02:38:24] [Server thread/INFO]: [Not Secure] <dotitwo> y accesi
-[02:38:30] [Server thread/INFO]: [Not Secure] <dotitwo> lana
-[02:39:48] [Server thread/INFO]: [Not Secure] <dotitwo> veni
-[02:40:15] [Server thread/INFO]: 23Maikk has made the advancement [Craft basic backpack]
-[02:40:23] [Server thread/INFO]: [Not Secure] <23Maikk> como la abro
-[02:40:30] [Server thread/INFO]: [Not Secure] <dotitwo> con la b creo
-[02:40:32] [Server thread/INFO]: 23Maikk has made the advancement [Custom Backpacks]
-[02:40:38] [Server thread/INFO]: [Not Secure] <dotitwo> yo la cambie
-[02:40:39] [Server thread/INFO]: [Not Secure] <23Maikk> noo
-[02:40:44] [Server thread/INFO]: [Not Secure] <dotitwo> u
-[02:41:11] [Server thread/INFO]: [Not Secure] <23Maikk> como la pongo en la espalda
-[02:41:20] [Server thread/INFO]: [Not Secure] <dotitwo> arriba del coso
-[02:41:23] [Server thread/INFO]: [Not Secure] <dotitwo> scudo
-[02:42:00] [Server thread/INFO]: [Not Secure] <23Maikk> no m aparece nd arriba dele scudo
-[02:42:09] [Server thread/INFO]: [Not Secure] <dotitwo> pero colocal
-[02:42:14] [Server thread/INFO]: [Not Secure] <dotitwo> no me acuerdo como era
-[02:43:49] [Server thread/INFO]: [Not Secure] <23Maikk> e
-[02:44:29] [Server thread/INFO]: [Not Secure] <23Maikk> como m pongo la chomila
-[02:44:30] [Server thread/INFO]: [Not Secure] <dotitwo> me dio 2 lingotes
-[02:44:35] [Server thread/INFO]: [Not Secure] <dotitwo> no me acuerdooooo
-[02:47:07] [Server thread/INFO]: [Not Secure] <dotitwo> busca tutorial
-[02:47:11] [Server thread/INFO]: [Not Secure] <dotitwo> del mod
-[02:47:13] [Server thread/INFO]: [Not Secure] <23Maikk> como
-[02:47:21] [Server thread/INFO]: [Not Secure] <dotitwo> travelers backpack
-[02:47:32] [Server thread/INFO]: [Not Secure] <dotitwo> o chatgpt
-[02:51:09] [Server thread/INFO]: [Not Secure] <dotitwo> mano
-[02:51:13] [Server thread/INFO]: [Not Secure] <dotitwo> hay tremenda mina
-[02:54:03] [Server thread/INFO]: 23Maikk lost connection: Disconnected
-[02:54:03] [Server thread/INFO]: 23Maikk left the game
-[03:03:19] [Server thread/INFO]: dotitwo teleported to -518.5 96.0 -54.5 minecraft:overworld
-[03:04:19] [Server thread/INFO]: dotitwo lost connection: Disconnected
-[03:04:19] [Server thread/INFO]: dotitwo left the game
-[03:05:19] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[12:45:06] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/silver-succotash/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[12:45:06] [main/INFO]: Compatibility level set to JAVA_21
+[12:45:06] [main/WARN]: Reference map 'cristellib-common-common-refmap.json' for cristellib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:45:06] [main/WARN]: Reference map 'formationsnether.mixins.refmap.json' for formationsnether.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:45:06] [main/WARN]: Reference map 'formationsoverworld.mixins.refmap.json' for formationsoverworld.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:45:06] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:45:06] [main/WARN]: Reference map 'journeymap-refmap.json' for journeymap.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:45:07] [main/WARN]: Error loading class: net/minecraft/class_897 (java.lang.ClassNotFoundException: net/minecraft/class_897)
+[12:45:07] [main/WARN]: @Mixin target net.minecraft.class_897 was not found geckolib.mixins.json:client.EntityRendererMixin from mod geckolib
+[12:45:07] [main/WARN]: Error loading class: net/minecraft/class_938 (java.lang.ClassNotFoundException: net/minecraft/class_938)
+[12:45:07] [main/WARN]: @Mixin target net.minecraft.class_938 was not found journeymap.mixins.json:client.SalmonRendererInvoker from mod journeymap
+[12:45:07] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[12:45:07] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[12:45:14] [main/INFO]: EssentialF3 mod loaded successfully! F3 replacement is now active.
+[12:45:15] [main/INFO]: Reflections took 86 ms to scan 2 urls, producing 7 keys and 77 values
+[12:45:16] [main/INFO]: Registering block: tanning_rack
+[12:45:16] [main/INFO]: Block registry key: ResourceKey[minecraft:block / homesteads:tanning_rack]
+[12:45:16] [main/INFO]: Successfully registered block: tanning_rack
+[12:45:16] [main/INFO]: Registering block: honey_bottling_station
+[12:45:16] [main/INFO]: Block registry key: ResourceKey[minecraft:block / homesteads:honey_bottling_station]
+[12:45:17] [main/INFO]: Successfully registered block: honey_bottling_station
+[12:45:17] [main/INFO]: Registering block: wood_work_log
+[12:45:17] [main/INFO]: Block registry key: ResourceKey[minecraft:block / homesteads:wood_work_log]
+[12:45:17] [main/INFO]: Successfully registered block: wood_work_log
+[12:45:17] [main/INFO]: Registering block: prospectors_bench
+[12:45:17] [main/INFO]: Block registry key: ResourceKey[minecraft:block / homesteads:prospectors_bench]
+[12:45:17] [main/INFO]: Successfully registered block: prospectors_bench
+[12:45:17] [main/INFO]: Registering block: forager_bench
+[12:45:17] [main/INFO]: Block registry key: ResourceKey[minecraft:block / homesteads:forager_bench]
+[12:45:17] [main/INFO]: Successfully registered block: forager_bench
+[12:45:17] [main/INFO]: ModBlocks.initialize() called
+[12:45:17] [main/INFO]: ModBlocks registration complete
+[12:45:17] [main/INFO]: ModItems.initialize() called
+[12:45:17] [main/INFO]: TANNING_RACK item: homesteads:tanning_rack
+[12:45:17] [main/INFO]: === Starting POI and Profession Registration ===
+[12:45:17] [main/INFO]: Verifying blocks exist:
+[12:45:17] [main/INFO]: TANNING_RACK: Block{homesteads:tanning_rack}
+[12:45:17] [main/INFO]: BOTTELING_STATION: Block{homesteads:honey_bottling_station}
+[12:45:17] [main/INFO]: WOOD_WORK_LOG: Block{homesteads:wood_work_log}
+[12:45:17] [main/INFO]: PROSPECTORS_BENCH: Block{homesteads:prospectors_bench}
+[12:45:17] [main/INFO]: FORAGER_BENCH: Block{homesteads:forager_bench}
+[12:45:17] [main/INFO]: === Registering POI types ===
+[12:45:17] [main/INFO]: Registering POI: tanning_rack_poi with block: homesteads:tanning_rack
+[12:45:17] [main/INFO]: Successfully registered POI: tanning_rack_poi -> class_4158[matchingStates=[Block{homesteads:tanning_rack}[facing=east], Block{homesteads:tanning_rack}[facing=north], Block{homesteads:tanning_rack}[facing=west], Block{homesteads:tanning_rack}[facing=south]], maxTickets=1, validRange=1]
+[12:45:17] [main/INFO]: Registering POI: honey_bottling_station_poi with block: homesteads:honey_bottling_station
+[12:45:17] [main/INFO]: Successfully registered POI: honey_bottling_station_poi -> class_4158[matchingStates=[Block{homesteads:honey_bottling_station}[facing=west], Block{homesteads:honey_bottling_station}[facing=south], Block{homesteads:honey_bottling_station}[facing=north], Block{homesteads:honey_bottling_station}[facing=east]], maxTickets=1, validRange=1]
+[12:45:17] [main/INFO]: Registering POI: wood_work_log_poi with block: homesteads:wood_work_log
+[12:45:17] [main/INFO]: Successfully registered POI: wood_work_log_poi -> class_4158[matchingStates=[Block{homesteads:wood_work_log}[facing=south], Block{homesteads:wood_work_log}[facing=west], Block{homesteads:wood_work_log}[facing=north], Block{homesteads:wood_work_log}[facing=east]], maxTickets=1, validRange=1]
+[12:45:17] [main/INFO]: Registering POI: prospectors_bench_poi with block: homesteads:prospectors_bench
+[12:45:17] [main/INFO]: Successfully registered POI: prospectors_bench_poi -> class_4158[matchingStates=[Block{homesteads:prospectors_bench}[facing=east], Block{homesteads:prospectors_bench}[facing=west], Block{homesteads:prospectors_bench}[facing=north], Block{homesteads:prospectors_bench}[facing=south]], maxTickets=1, validRange=1]
+[12:45:17] [main/INFO]: Registering POI: forager_bench_poi with block: homesteads:forager_bench
+[12:45:17] [main/INFO]: Successfully registered POI: forager_bench_poi -> class_4158[matchingStates=[Block{homesteads:forager_bench}[facing=south], Block{homesteads:forager_bench}[facing=north], Block{homesteads:forager_bench}[facing=east], Block{homesteads:forager_bench}[facing=west]], maxTickets=1, validRange=1]
+[12:45:17] [main/INFO]: === Registering villager professions ===
+[12:45:17] [main/INFO]: Registering profession: home_steader with POI: tanning_rack_poi
+[12:45:17] [main/INFO]: Created POI key: homesteads:tanning_rack_poi
+[12:45:17] [main/INFO]: Successfully registered profession: home_steader -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.home_steader', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000766ec8e85e98@bf4b664, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000766ec8e860f0@3ae88a25, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.wool.hit, fixedRange=Optional.empty]]
+[12:45:17] [main/INFO]: Registering profession: bee_keeper with POI: honey_bottling_station_poi
+[12:45:17] [main/INFO]: Created POI key: homesteads:honey_bottling_station_poi
+[12:45:17] [main/INFO]: Successfully registered profession: bee_keeper -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.bee_keeper', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000766ec8e85e98@770f9cbc, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000766ec8e860f0@3c43e8d8, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.honey_block.place, fixedRange=Optional.empty]]
+[12:45:17] [main/INFO]: Registering profession: lumber_jack with POI: wood_work_log_poi
+[12:45:17] [main/INFO]: Created POI key: homesteads:wood_work_log_poi
+[12:45:17] [main/INFO]: Successfully registered profession: lumber_jack -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.lumber_jack', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000766ec8e85e98@742573d5, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000766ec8e860f0@58f79eeb, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.wood.break, fixedRange=Optional.empty]]
+[12:45:17] [main/INFO]: Registering profession: prospector with POI: prospectors_bench_poi
+[12:45:17] [main/INFO]: Created POI key: homesteads:prospectors_bench_poi
+[12:45:17] [main/INFO]: Successfully registered profession: prospector -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.prospector', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000766ec8e85e98@647b4c49, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000766ec8e860f0@6f3052e9, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.stone.break, fixedRange=Optional.empty]]
+[12:45:17] [main/INFO]: Registering profession: forager with POI: forager_bench_poi
+[12:45:17] [main/INFO]: Created POI key: homesteads:forager_bench_poi
+[12:45:17] [main/INFO]: Successfully registered profession: forager -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.forager', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000766ec8e85e98@409a3d8f, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000766ec8e860f0@10c305fd, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.flowering_azalea.step, fixedRange=Optional.empty]]
+[12:45:17] [main/INFO]: === Registration Complete ===
+[12:45:17] [main/INFO]: === All registered POI types ===
+[12:45:17] [main/INFO]: POI: homesteads:forager_bench_poi -> class_4158[matchingStates=[Block{homesteads:forager_bench}[facing=south], Block{homesteads:forager_bench}[facing=north], Block{homesteads:forager_bench}[facing=east], Block{homesteads:forager_bench}[facing=west]], maxTickets=1, validRange=1]
+[12:45:17] [main/INFO]: POI: homesteads:tanning_rack_poi -> class_4158[matchingStates=[Block{homesteads:tanning_rack}[facing=east], Block{homesteads:tanning_rack}[facing=north], Block{homesteads:tanning_rack}[facing=west], Block{homesteads:tanning_rack}[facing=south]], maxTickets=1, validRange=1]
+[12:45:17] [main/INFO]: POI: homesteads:honey_bottling_station_poi -> class_4158[matchingStates=[Block{homesteads:honey_bottling_station}[facing=west], Block{homesteads:honey_bottling_station}[facing=south], Block{homesteads:honey_bottling_station}[facing=north], Block{homesteads:honey_bottling_station}[facing=east]], maxTickets=1, validRange=1]
+[12:45:17] [main/INFO]: POI: homesteads:wood_work_log_poi -> class_4158[matchingStates=[Block{homesteads:wood_work_log}[facing=south], Block{homesteads:wood_work_log}[facing=west], Block{homesteads:wood_work_log}[facing=north], Block{homesteads:wood_work_log}[facing=east]], maxTickets=1, validRange=1]
+[12:45:17] [main/INFO]: POI: homesteads:prospectors_bench_poi -> class_4158[matchingStates=[Block{homesteads:prospectors_bench}[facing=east], Block{homesteads:prospectors_bench}[facing=west], Block{homesteads:prospectors_bench}[facing=north], Block{homesteads:prospectors_bench}[facing=south]], maxTickets=1, validRange=1]
+[12:45:17] [main/INFO]: === All registered villager professions ===
+[12:45:17] [main/INFO]: Profession: homesteads:forager -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.forager', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000766ec8e85e98@409a3d8f, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000766ec8e860f0@10c305fd, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.flowering_azalea.step, fixedRange=Optional.empty]]
+[12:45:17] [main/INFO]: Profession: homesteads:lumber_jack -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.lumber_jack', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000766ec8e85e98@742573d5, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000766ec8e860f0@58f79eeb, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.wood.break, fixedRange=Optional.empty]]
+[12:45:17] [main/INFO]: Profession: homesteads:bee_keeper -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.bee_keeper', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000766ec8e85e98@770f9cbc, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000766ec8e860f0@3c43e8d8, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.honey_block.place, fixedRange=Optional.empty]]
+[12:45:17] [main/INFO]: Profession: homesteads:home_steader -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.home_steader', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000766ec8e85e98@bf4b664, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000766ec8e860f0@3ae88a25, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.wool.hit, fixedRange=Optional.empty]]
+[12:45:17] [main/INFO]: Profession: homesteads:prospector -> class_3852[name=translation{key='entity.minecraft.villager.homesteads.prospector', args=[]}, heldJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000766ec8e85e98@647b4c49, acquirableJobSite=com.voxelforge.ModVillagerProfessions$$Lambda/0x0000766ec8e860f0@6f3052e9, requestedItems=[], secondaryPoi=[], workSound=class_3414[location=minecraft:block.stone.break, fixedRange=Optional.empty]]
+[12:45:17] [main/INFO]: Homesteads initialized!
+[12:45:17] [main/INFO]: Initializing ServerSide Packet Registries
+[12:45:17] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[12:45:17] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
+[12:45:17] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
+[12:45:17] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
+[12:45:17] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[12:45:17] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[12:45:17] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[12:45:17] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[12:45:17] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[12:45:17] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[12:45:17] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[12:45:17] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[12:45:17] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[12:45:17] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[12:45:17] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[12:45:17] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[12:45:17] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[12:45:17] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[12:45:17] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[12:45:17] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[12:45:17] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:45:20] [main/INFO]: Loaded 1889 recipes
+[12:45:20] [main/INFO]: Loaded 2032 advancements
+[12:45:20] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[12:45:20] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[12:45:20] [main/INFO]: Applied 0 biome modifications to 0 of 134 new biomes in 1.763 ms
+[12:45:20] [Server thread/INFO]: Loading server configs...
+[12:45:20] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[12:45:20] [Server thread/INFO]: Loading properties
+[12:45:20] [Server thread/INFO]: Default game type: SURVIVAL
+[12:45:20] [Server thread/INFO]: Generating keypair
+[12:45:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:45:20] [Server thread/INFO]: Using epoll channel type
+[12:45:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:45:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:45:20] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:45:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:45:20] [Server thread/INFO]: Preparing level "world"
+[12:45:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:45:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:45:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:45:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:45:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:45:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:45:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:45:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:45:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:45:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:45:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:45:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:45:27] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:45:27] [Server thread/INFO]: Time elapsed: 5978 ms
+[12:45:27] [Server thread/INFO]: Done (6.384s)! For help, type "help"
+[12:45:27] [Server thread/INFO]: [REI] ****************************************
+[12:45:27] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for START.
+[12:45:27] [Server thread/INFO]: [REI] Plugins (3):
+[12:45:27] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[12:45:27] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[12:45:27] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[12:45:27] [Server thread/INFO]: [REI] ****************************************
+[12:45:27] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for START in 2.070 ms, totaling 70.50 ms.
+[12:45:27] [Server thread/INFO]: [REI] ========================================
+[12:45:27] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for END.
+[12:45:27] [Server thread/INFO]: [REI] Plugins (3):
+[12:45:27] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[12:45:27] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[12:45:27] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[12:45:27] [Server thread/INFO]: [REI] ========================================
+[12:45:27] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 1.141 ms, totaling 70.22 ms.
+[12:45:27] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
+[12:45:27] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
+[12:45:27] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
+[12:45:27] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
+[12:45:27] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
+[12:45:27] [Server thread/INFO]: Loaded null for service interface journeymap.api.services.WebMapService
+[12:45:27] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricClientHooks@23099e4d for service interface journeymap.api.services.ClientPlatformService
+[12:45:27] [Server thread/INFO]: Loaded journeymap.common.helpers.FabricHooks@7a92460b for service interface journeymap.api.services.CommonPlatformService
+[12:46:27] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[12:54:14] [Server thread/INFO]: dotitwo[/127.174.95.116:59129] logged in with entity id 34 at (-559.5, 102.0, -53.5)
+[12:54:14] [Server thread/INFO]: Loading config from file...
+[12:54:14] [Server thread/INFO]: dotitwo joined the game
