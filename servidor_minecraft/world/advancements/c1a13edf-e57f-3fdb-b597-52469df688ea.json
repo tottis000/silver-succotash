@@ -34,6 +34,7 @@
       "seasonal_forest": "2025-09-24 02:27:21 +0000",
       "highland": "2025-09-24 02:10:33 +0000",
       "coniferous_forest": "2025-09-22 23:42:07 +0000",
+      "pumpkin_patch": "2025-09-24 02:35:28 +0000",
       "prairie": "2025-09-22 22:34:50 +0000"
     },
     "done": false
@@ -595,6 +596,7 @@
     "criteria": {
       "minecraft:pillager": "2025-09-24 01:53:08 +0000",
       "minecraft:skeleton": "2025-09-22 23:29:33 +0000",
+      "minecraft:enderman": "2025-09-24 02:46:23 +0000",
       "minecraft:spider": "2025-09-23 12:14:51 +0000",
       "minecraft:zombie": "2025-09-22 22:51:00 +0000"
     },
@@ -2184,9 +2186,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2025-09-24 02:38:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2025-09-24 02:45:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2025-09-24 02:38:41 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/decorations/black_sleeping_bag": {
+    "criteria": {
+      "has_black_wool": "2025-09-24 02:38:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2025-09-24 02:38:41 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/orange_dye_from_marigold": {
     "criteria": {
       "has_marigold": "2025-09-24 02:30:43 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/enderman": {
+    "criteria": {
+      "has_ender_pearl": "2025-09-24 02:46:27 +0000"
     },
     "done": true
   },
