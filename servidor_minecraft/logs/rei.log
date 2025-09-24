@@ -623,3 +623,5 @@ java.lang.Throwable
 [12:54:14] [Server thread/DEBUG] [REI] Player dotitwo has outdated displays version 0 [latest version: 93DD4A0200000001], sending reset packet request.
 [13:45:33] [Server thread/DEBUG] [REI] Player dotitwo has outdated displays version 0 [latest version: 93DD4A0200000001]
 [13:45:33] [Server thread/DEBUG] [REI] Player dotitwo has outdated displays version 0 [latest version: 93DD4A0200000001], sending reset packet request.
+[20:23:45] [Server thread/DEBUG] [REI] Player 23Maikk has outdated displays version 0 [latest version: 93DD4A0200000001]
+[20:23:45] [Server thread/DEBUG] [REI] Player 23Maikk has outdated displays version 0 [latest version: 93DD4A0200000001], sending reset packet request.
